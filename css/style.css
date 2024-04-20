@@ -1,0 +1,16 @@
+/* "abandon hope all ye who enter here" */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 32px;
+    padding-right: 32px; 
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.global {
+    text-align: center;
+}
+.section-introduction {
+    padding: 16px;
+    background-color: (darkgray);
+    border-radius: 4px;
+}
