@@ -10,10 +10,23 @@
     <main>
         <header class="global">
         <h1>Temperature Converter by Ryvl :3</h1>
+        <img src="yuyuko-kfc.jpg" alt="" width="144px">
     </header>
 
     <section class="section-introduction">
         <p>Masukkan Suhu Celcius (&deg;C) ...</p>
+        <input id="input" type="number">
+        <p id="result">Hasil: (&deg;F) </p>
+        <button onclick="convert()">Convert</button>
+        <script>
+            function convert() {
+    let temp = document.getElementById("input").value;
+    let result = (temp * 1.8 + 32);
+    let output = document.getElementById("result");
+    output.outerHTML = result;
+  }
+        </script>
+            <p>Rumus Celcius ke Fahrenheit: °C = 5/9 x (°F - 32). Atau bisa juga dengan rumus: °F = (9/5 x °C) + 32.</p>
     </section>
     <section>
         <header>
